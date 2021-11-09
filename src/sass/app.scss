@@ -1,0 +1,100 @@
+/* Import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+.App {
+  height: 100vh;
+}
+
+:root {
+  --background: #0B0D17;
+  --light-grey: #D0D6F9;
+  --cream: #FFFFFF;
+}
+
+h1, h2, h3, h4, .subheading1, .subheading2, .nav-text, .body-text {
+  color: var(--cream);
+}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 9.375rem;
+  line-height: 172px;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+  line-height: 115px;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+h5 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: var(--light-grey);
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--cream);
+}
+
+.subheading1 {
+  font-family: 'Bellefair', serif;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.subheading2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.35px;
+}
+
+.nav-text {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+.body-text {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--cream);
+}

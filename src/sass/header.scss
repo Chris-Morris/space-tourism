@@ -1,0 +1,62 @@
+.logo {
+  position: absolute;
+  width: 3.33%;
+  height: auto;
+  left: 3.82%;
+  top: 7.11%;
+}
+
+.rectangle {
+  position: absolute;
+  width: 32.85%;
+  height: 1px;
+  left: 11.6%;
+  top: 9.77%;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+nav {
+  position: absolute;
+  width: 57.64%;
+  height: 10.66%;
+  left: 42.36%;
+  top: 4.44%;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-links {
+  position: absolute;
+  width: 37.64%;
+  height: 2.1%;
+  left: 50.9%;
+  top: 8.77%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-text {
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.19rem;
+  letter-spacing: 0.17rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-text:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-text:hover {
+  text-decoration: none;
+}
+
+.selected-nav:active {
+  color: yellow;
+}

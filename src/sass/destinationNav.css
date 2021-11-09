@@ -1,0 +1,34 @@
+.descNav {
+  position: absolute;
+  left: 0%;
+  right: 35.84%;
+  top: 0%;
+  bottom: 92.8%;
+  height: 34px;
+  width: 285.5px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.descNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.destNav {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+
+.destNav:active, .destNav:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+/*# sourceMappingURL=destinationNav.css.map */

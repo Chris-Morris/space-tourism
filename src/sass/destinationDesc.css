@@ -1,0 +1,54 @@
+.container {
+  position: absolute;
+  width: 445px;
+  height: 472px;
+  left: 832px;
+  top: 310px;
+}
+
+.title {
+  position: absolute;
+  height: 115px;
+  left: 0.11%;
+  right: 25.06%;
+  top: calc(50% - 115px / 2 - 107.5px);
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 115px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.descBody {
+  position: absolute;
+  height: 128px;
+  left: 0%;
+  right: 0.22%;
+  top: calc(50% - 128px / 2 + 28px);
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+  color: #d0d6f9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.divider {
+  position: absolute;
+  left: 0.22%;
+  right: 0%;
+  top: 80.93%;
+  bottom: 18.86%;
+  background: #383b4b;
+}
+/*# sourceMappingURL=destinationDesc.css.map */

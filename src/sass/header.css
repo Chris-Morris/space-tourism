@@ -1,0 +1,76 @@
+.header {
+  position: absolute;
+  width: 96.18%;
+  height: 96px;
+  left: 55px;
+  top: 40px;
+}
+
+.logo {
+  position: absolute;
+  width: 3.33%;
+  height: auto;
+  left: 55px;
+  top: 64px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 32.85%;
+  height: 1px;
+  left: 11.6%;
+  top: 88px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+nav {
+  position: absolute;
+  width: 57.64%;
+  height: 96px;
+  left: 42.36%;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav-links {
+  position: absolute;
+  width: 37.64%;
+  height: 19px;
+  left: 50.9%;
+  top: 79px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-text {
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-text:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-text:hover {
+  text-decoration: none;
+}
+
+.selected-nav:active {
+  color: yellow;
+}
+/*# sourceMappingURL=header.css.map */

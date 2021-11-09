@@ -1,0 +1,38 @@
+.explore {
+  position: absolute;
+  width: 274px;
+  height: 274px;
+  left: 1001px;
+  top: 495px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.explore-text {
+  position: absolute;
+  height: 37px;
+  left: 22.63%;
+  right: 23.36%;
+  top: calc(50% - 37px / 2 + 0.5px);
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0b0d17;
+}
+
+.explore-hover {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  left: 913px;
+  top: 407px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.2;
+}
+/*# sourceMappingURL=explore.css.map */
