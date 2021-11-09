@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,IAAI,EAAE,MAAM;EACZ,GAAG,EAAE,MAAM;CACZ",
+    "sources": [
+        "technologyImage.scss"
+    ],
+    "names": [],
+    "file": "technologyImage.css"
+}

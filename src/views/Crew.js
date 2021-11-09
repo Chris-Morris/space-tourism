@@ -51,7 +51,7 @@ const Crew = () => {
             <h1 className="crewName">{nameState}</h1>
             <p className="crewDesc body-text">{descState}</p>
             <CrewImage image={imageState} />
-            <div className="nav">
+            <div className="crewNav">
                 <button className="dot" onClick={switchCrewDoug}></button>
                 <button className="dot" onClick={switchCrewMark}></button>
                 <button className="dot" onClick={switchCrewVictor}></button>

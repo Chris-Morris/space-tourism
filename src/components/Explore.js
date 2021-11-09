@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../sass/explore.scss';
 
 const Explore = () => {
@@ -12,9 +13,10 @@ const Explore = () => {
 
     return (
         <>
-            <div className="explore">
+            <Link to="/destination"><div className="explore">
                 <h1 className="explore-text">EXPLORE</h1>
             </div>
+            </Link>
             <div id="explore-hover"></div>
         </>
     )

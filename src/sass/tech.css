@@ -1,8 +1,8 @@
-.crewTitle {
+.techTitle {
   position: absolute;
   width: 34.86%;
   height: 7.11%;
-  left: 11.49%;
+  left: 22.57%;
   top: 44.44%;
   font-family: Bellefair;
   font-style: normal;
@@ -15,11 +15,11 @@
   opacity: 0.5;
 }
 
-.crewName {
+.techName {
   position: absolute;
   width: 63.89%;
   height: 7.11%;
-  left: 11.49%;
+  left: 22.57%;
   top: 50.2%;
   font-family: Bellefair;
   font-style: normal;
@@ -30,11 +30,11 @@
   color: #ffffff;
 }
 
-.crewDesc {
+.techDesc {
   position: absolute;
   width: 30.8%;
   height: 14.22%;
-  left: 11.49%;
+  left: 22.57%;
   top: 60.33%;
   font-style: normal;
   font-weight: normal;
@@ -43,26 +43,44 @@
   color: #d0d6f9;
 }
 
-.crewNav {
+.techNav {
   position: absolute;
-  width: 9.16%;
-  height: 1.66%;
-  left: 11.6%;
-  top: 87.88%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 5.55%;
+  height: 33.77%;
+  left: 11.46%;
+  top: 42.55%;
 }
 
-.dot {
-  height: 15px;
-  width: 15px;
+.techNumber {
+  width: 80px;
+  height: 80px;
+  border: #4d4e57 1px solid;
   border-radius: 50%;
-  background: #ffffff;
-  mix-blend-mode: normal;
-  opacity: 0.17;
+  background: transparent;
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.3125rem;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.125rem;
+  color: #ffffff;
+  cursor: pointer;
 }
-/*# sourceMappingURL=crew.css.map */
+
+.techNumberActive {
+  background: #ffffff;
+  color: black;
+}
+/*# sourceMappingURL=tech.css.map */
