@@ -20,6 +20,10 @@ const Crew = () => {
         setNameState(crew.doug.name);
         setDescState(crew.doug.desc);
         setImageState(crew.doug.name);
+        document.getElementById("1").classList.add("dotActive");
+        document.getElementById("2").classList.remove("dotActive");
+        document.getElementById("3").classList.remove("dotActive");
+        document.getElementById("4").classList.remove("dotActive");
     }
 
     const switchCrewMark = () => {
@@ -27,6 +31,10 @@ const Crew = () => {
         setNameState(crew.mark.name);
         setDescState(crew.mark.desc);
         setImageState(crew.mark.name);
+        document.getElementById("1").classList.remove("dotActive");
+        document.getElementById("2").classList.add("dotActive");
+        document.getElementById("3").classList.remove("dotActive");
+        document.getElementById("4").classList.remove("dotActive");
     }
 
     const switchCrewVictor = () => {
@@ -34,6 +42,10 @@ const Crew = () => {
         setNameState(crew.victor.name);
         setDescState(crew.victor.desc);
         setImageState(crew.victor.name);
+        document.getElementById("1").classList.remove("dotActive");
+        document.getElementById("2").classList.remove("dotActive");
+        document.getElementById("3").classList.add("dotActive");
+        document.getElementById("4").classList.remove("dotActive");
     }
 
     const switchCrewAnousheh = () => {
@@ -41,6 +53,10 @@ const Crew = () => {
         setNameState(crew.anousheh.name);
         setDescState(crew.anousheh.desc);
         setImageState(crew.anousheh.name);
+        document.getElementById("1").classList.remove("dotActive");
+        document.getElementById("2").classList.remove("dotActive");
+        document.getElementById("3").classList.remove("dotActive");
+        document.getElementById("4").classList.add("dotActive");
     }
 
     return (
@@ -52,10 +68,10 @@ const Crew = () => {
             <p className="crewDesc body-text">{descState}</p>
             <CrewImage image={imageState} />
             <div className="crewNav">
-                <button className="dot" onClick={switchCrewDoug}></button>
-                <button className="dot" onClick={switchCrewMark}></button>
-                <button className="dot" onClick={switchCrewVictor}></button>
-                <button className="dot" onClick={switchCrewAnousheh}></button>
+                <button id="1" className="dot dotActive" onClick={switchCrewDoug}></button>
+                <button id="2" className="dot" onClick={switchCrewMark}></button>
+                <button id="3" className="dot" onClick={switchCrewVictor}></button>
+                <button id="4" className="dot" onClick={switchCrewAnousheh}></button>
             </div>
         </div>
     )

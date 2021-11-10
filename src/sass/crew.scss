@@ -63,7 +63,12 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
+  border: none;
   background: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.17;
+}
+
+.dotActive {
+  opacity: 1;
 }
